@@ -122,7 +122,7 @@ highlight Function               ctermfg=10 cterm=bold
 "        *Function     the "foo" part of "def foo()"
 highlight Delimiter              ctermfg=9  cterm=none
 "        *Delimiter    Delimiters for things, like "
-highlight Visual       ctermbg=6
+highlight Visual       ctermbg=6 ctermfg=15 cterm=none
 "        *Visual       Visual mode appearance
 
 " Status line
