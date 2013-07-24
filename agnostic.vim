@@ -94,11 +94,10 @@ highlight Type                   ctermfg=9  cterm=bold
 "         Structure       struct, union, enum, etc.
 "         Typedef         A typedef
 
-highlight Special      ctermbg=2 ctermfg=14 cterm=none
+highlight Special      ctermbg=5 ctermfg=12 cterm=bold
 "        *Special         any special symbol
 "         SpecialChar     special character in a constant
 "         Tag             you can use CTRL-] on this
-"         Delimiter       character that needs attention
 "         SpecialComment  special things inside a comment
 "         Debug           debugging statements
 
