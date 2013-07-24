@@ -64,15 +64,13 @@ highlight Comment                ctermfg=12 cterm=bold
 
 highlight Constant               ctermfg=15 cterm=bold
 "        *Constant        constant expressions
-"         String          (overridden below) "this is a string"
 "         Character       'c', '\n'
 "         Number          234, 0xff
 "         Boolean         TRUE, false
 "         Float           2.3e10
 
-highlight Identifier             ctermfg=9  cterm=bold
+highlight Identifier             ctermfg=9  cterm=none
 "        *Identifier      variables, etc
-"         Function        def foo()
 
 highlight Statement              ctermfg=10 cterm=bold
 "        *Statement       any statement
@@ -116,14 +114,33 @@ highlight Todo         ctermbg=6 ctermfg=9  cterm=reverse
 "
 
 "----------------------------------------
-"Special highlights
+" Special highlights
 
 highlight String       ctermbg=5 ctermfg=15 cterm=none
 "        *String       "Things inside quotes" 'like these'
+highlight Function               ctermfg=10 cterm=bold
+"        *Function     the "foo" part of "def foo()"
+highlight Delimiter              ctermfg=9  cterm=none
+"        *Delimiter    Delimiters for things, like "
+highlight Visual       ctermbg=6
+"        *Visual       Visual mode appearance
 
+" Status line
 
 highlight StatusLine   ctermbg=6 ctermfg=9  cterm=reverse
 "        *StatusLine   The status line for the active window
 highlight StatusLineNC ctermbg=7 ctermfg=9  cterm=none
 "        *StatusLineNC The status line for the non active window
+highlight LineNr       ctermbg=7 ctermfg=10 cterm=none
+"        *StatusLineNC The status line for the non active window
 
+" Ruby Specific
+
+highlight rubyDefine   ctermbg=0 ctermfg=13 cterm=bold
+"        *rubyDefine    Delimiters for things, like "
+" TODO Fix having to set the ctermbg here.  It is inheritting 8 from
+" somewhere.
+
+" Vim Specific
+highlight vimCommand             ctermfg=15 cterm=bold
+"        *vimCommand    Delimiters for things, like "
