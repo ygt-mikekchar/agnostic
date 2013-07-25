@@ -36,13 +36,7 @@ will be swapped when the font style is reversed.
 You are welcome to select any hue for the colours that
 you prefer, but for some readability the theme makes
 some assumptions.  These assumptions are based on the
-default hues in the Vim documentation.
-
-TODO: The Vim documentation uses the MSDOS default colours
-because they are not modifiable.  I don't think this is part
-of our target audience, so it might be better to use the
-XTerm defaults.  This will make it easier to use the colour
-preferences for apps other than vim.
+default hues in standard xterm colours.
 
   * For dark themes:
     | BG | FG | Colour |
@@ -59,12 +53,12 @@ preferences for apps other than vim.
   * For all themes:
     | BG | FG | Colour   |
     |:--:|:--:|:--------:|
-    | 1  |  9 | Blue     |
+    | 1  |  9 | Red      |
     | 2  | 10 | Green    |
-    | 4  | 11 | Cyan     |
-    | 5  | 12 | Red      |
+    | 4  | 11 | Yellow   |
+    | 5  | 12 | Blue     |
     | 6  | 13 | Magenta  |
-    | 7  | 14 | Yellow   |
+    | 7  | 14 | Cyan     |
 
 ## Foreground/Background colour combinations
 Agnostic will not use the following foreground/background
