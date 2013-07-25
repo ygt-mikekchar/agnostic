@@ -21,12 +21,12 @@
 "
 "    For all themes:
 "     BG  FG 
-"      1,  9: Blue
-"      2, 10: Green
-"      3, 11: Cyan
-"      4, 12: Red
-"      5, 13: Magenta
-"      6, 14: Yellow
+"      1,  9: Blue   RED    9->12    1->4
+"      2, 10: Green  GREEN  10->10
+"      3, 11: Cyan   YELLOW 11->14   3->6
+"      4, 12: Red    BLUE   12->9    4->1
+"      5, 13: Magenta MAGENTA 13->13
+"      6, 14: Yellow CYAN   14->11   6->3
 
 " Colour mixing:
 "   The following background/foreground combinations
@@ -59,7 +59,7 @@
 highlight Normal       ctermbg=0 ctermfg=15 cterm=none
 "        *Normal          any text
 
-highlight Comment                ctermfg=12 cterm=bold
+highlight Comment                ctermfg=9  cterm=bold
 "        *Comment         like this line
 
 highlight Constant               ctermfg=15 cterm=bold
@@ -69,7 +69,7 @@ highlight Constant               ctermfg=15 cterm=bold
 "         Boolean         TRUE, false
 "         Float           2.3e10
 
-highlight Identifier             ctermfg=9  cterm=none
+highlight Identifier             ctermfg=12 cterm=none
 "        *Identifier      variables, etc
 
 highlight Statement              ctermfg=10 cterm=bold
@@ -88,26 +88,26 @@ highlight PreProc                ctermfg=13 cterm=bold
 "         Macro           same as Define
 "         PreCondit       preprocessor #if, #else, #endif, etc.
 
-highlight Type                   ctermfg=9  cterm=bold
+highlight Type                   ctermfg=12 cterm=bold
 "        *Type            int, long, char, etc.
 "         StorageClass    static, register, volatile, etc.
 "         Structure       struct, union, enum, etc.
 "         Typedef         A typedef
 
-highlight Special      ctermbg=5 ctermfg=12 cterm=bold
+highlight Special      ctermbg=5 ctermfg=9  cterm=bold
 "        *Special         any special symbol
 "         SpecialChar     special character in a constant
 "         Tag             you can use CTRL-] on this
 "         SpecialComment  special things inside a comment
 "         Debug           debugging statements
 
-highlight Underlined             ctermfg=9  cterm=underline
+highlight Underlined             ctermfg=12 cterm=underline
 "        *Underlined      text that stands out, HTML links
 
-highlight Error        ctermbg=6 ctermfg=12 cterm=none
+highlight Error        ctermbg=3 ctermfg=9  cterm=none
 "        *Error           any erroneous construct
 
-highlight Todo         ctermbg=6 ctermfg=9  cterm=reverse
+highlight Todo         ctermbg=3 ctermfg=12 cterm=reverse
 "        *Todo            anything that needs extra attention; mostly the
 "                         keywords TODO FIXME and XXX
 "
@@ -119,16 +119,16 @@ highlight String       ctermbg=5 ctermfg=15 cterm=none
 "        *String       "Things inside quotes" 'like these'
 highlight Function               ctermfg=10 cterm=bold
 "        *Function     the "foo" part of "def foo()"
-highlight Delimiter              ctermfg=9  cterm=none
+highlight Delimiter              ctermfg=12 cterm=none
 "        *Delimiter    Delimiters for things, like "
-highlight Visual       ctermbg=6 ctermfg=15 cterm=none
+highlight Visual       ctermbg=3 ctermfg=15 cterm=none
 "        *Visual       Visual mode appearance
 
 " Status line
 
-highlight StatusLine   ctermbg=6 ctermfg=9  cterm=reverse
+highlight StatusLine   ctermbg=3 ctermfg=12 cterm=reverse
 "        *StatusLine   The status line for the active window
-highlight StatusLineNC ctermbg=7 ctermfg=9  cterm=none
+highlight StatusLineNC ctermbg=7 ctermfg=12 cterm=none
 "        *StatusLineNC The status line for the non active window
 highlight LineNr       ctermbg=7 ctermfg=10 cterm=none
 "        *StatusLineNC The status line for the non active window
