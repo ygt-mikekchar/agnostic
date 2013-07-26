@@ -1,0 +1,4 @@
+#!/bin/bash
+
+name=`gconftool-2 --get /apps/gnome-terminal/profiles/$1/visible_name`
+gconftool-2 --get /apps/gnome-terminal/profiles/$1/palette >$name.palette
