@@ -21,12 +21,12 @@
 "
 "    For all themes:
 "     BG  FG 
-"      1,  9: Blue   RED    9->12    1->4
-"      2, 10: Green  GREEN  10->10
-"      3, 11: Cyan   YELLOW 11->14   3->6
-"      4, 12: Red    BLUE   12->9    4->1
-"      5, 13: Magenta MAGENTA 13->13
-"      6, 14: Yellow CYAN   14->11   6->3
+"      1,  9: Red
+"      2, 10: Green
+"      3, 11: Yellow
+"      4, 12: Blue
+"      5, 13: Magenta
+"      6, 14: Cyan
 
 " Colour mixing:
 "   The following background/foreground combinations
@@ -94,7 +94,7 @@ highlight Type                   ctermfg=12 cterm=bold
 "         Structure       struct, union, enum, etc.
 "         Typedef         A typedef
 
-highlight Special      ctermbg=5 ctermfg=9  cterm=bold
+highlight Special                ctermfg=9  cterm=bold
 "        *Special         any special symbol
 "         SpecialChar     special character in a constant
 "         Tag             you can use CTRL-] on this
@@ -107,7 +107,7 @@ highlight Underlined             ctermfg=12 cterm=underline
 highlight Error        ctermbg=3 ctermfg=9  cterm=none
 "        *Error           any erroneous construct
 
-highlight Todo         ctermbg=3 ctermfg=12 cterm=reverse
+highlight Todo         ctermbg=3 ctermfg=9  cterm=reverse
 "        *Todo            anything that needs extra attention; mostly the
 "                         keywords TODO FIXME and XXX
 "
@@ -115,7 +115,7 @@ highlight Todo         ctermbg=3 ctermfg=12 cterm=reverse
 "----------------------------------------
 " Special highlights
 
-highlight String       ctermbg=5 ctermfg=15 cterm=none
+highlight String                 ctermfg=13 cterm=none
 "        *String       "Things inside quotes" 'like these'
 highlight Function               ctermfg=10 cterm=bold
 "        *Function     the "foo" part of "def foo()"
@@ -126,20 +126,35 @@ highlight Visual       ctermbg=3 ctermfg=15 cterm=none
 
 " Status line
 
-highlight StatusLine   ctermbg=3 ctermfg=12 cterm=reverse
+highlight StatusLine   ctermbg=3 ctermfg=4  cterm=reverse
 "        *StatusLine   The status line for the active window
 highlight StatusLineNC ctermbg=7 ctermfg=12 cterm=none
 "        *StatusLineNC The status line for the non active window
-highlight LineNr       ctermbg=7 ctermfg=10 cterm=none
-"        *StatusLineNC The status line for the non active window
+highlight LineNr       ctermbg=7 ctermfg=12 cterm=none
+"        *LineNr       Line numbers
+
+" Diff
+highlight DiffChange   ctermbg=4 ctermfg=15 cterm=none
+highlight DiffText     ctermbg=3 ctermfg=15 cterm=none
+highlight DiffAdd      ctermbg=2 ctermfg=15 cterm=none
+highlight DiffDelete   ctermbg=1 ctermfg=15 cterm=none
+
+" Folding
+highlight Folded       ctermbg=7 ctermfg=8  cterm=none
+highlight FoldedColumn ctermbg=7 ctermfg=8  cterm=none
 
 " Ruby Specific
 
 highlight rubyDefine   ctermbg=0 ctermfg=13 cterm=bold
-"        *rubyDefine    Delimiters for things, like "
+"        *rubyDefine   Ruby def
 " TODO Fix having to set the ctermbg here.  It is inheritting 8 from
 " somewhere.
 
 " Vim Specific
 highlight vimCommand             ctermfg=15 cterm=bold
-"        *vimCommand    Delimiters for things, like "
+"        *vimCommand   Vim commands in .vimrc, etc
+
+" Go Specific
+highlight goBlock                ctermfg=1  cterm=reverse 
+"        *goBlock      Go Blocks
+

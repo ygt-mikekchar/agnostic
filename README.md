@@ -1,5 +1,7 @@
 # Vim Agnostic Colour Scheme
 
+FIXME: Screenshots are out of date
+
 Agnostic is a Vim colour scheme geared towards helping people who
 use tmux to remote pair program.  When doing such pair programming
 it often happens that each person has a preference for colour
