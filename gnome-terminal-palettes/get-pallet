@@ -1,4 +1,34 @@
 #!/bin/bash
 
-name=`gconftool-2 --get /apps/gnome-terminal/profiles/$1/visible_name`
-gconftool-2 --get /apps/gnome-terminal/profiles/$1/palette >$name.palette
+get_name() {
+  name=`gconftool-2 --get "$1/visible_name"`
+}
+
+get_profiles() {
+  profiles=`gconftool-2 --all-dirs /apps/gnome-terminal/profiles`
+}
+
+get_path() {
+  get_profiles
+  for i in $profiles; do
+    get_name "$i"
+    if test "$name" == "$1" ; then
+      path="$i"
+    fi
+  done
+}
+
+get_palette() {
+  get_path "$1"
+  palette=`gconftool-2 --get "$path/palette"`
+}
+
+write_palette() {
+  get_palette "$1"
+  echo $palette >"$1.palette"
+}
+
+write_palette agnostic
+write_palette agnostic-dark
+
+
