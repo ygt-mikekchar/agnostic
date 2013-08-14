@@ -41,18 +41,22 @@ some assumptions.  These assumptions are based on the
 default hues in standard xterm colours.
 
   * For dark themes:
+    ```
     | BG | FG | Colour |
     |:--:|:--:|:------:|
     | 0  |  8 | Black  |
     | 7  | 15 | White  |
- 
+    ```
   * For light themes:
+    ```
     | BG | FG | Colour |
     |:--:|:--:|:------:|
     | 0  |  8 | White  |
     | 7  | 15 | Black  |
+    ```
 
   * For all themes:
+    ```
     | BG | FG | Colour   |
     |:--:|:--:|:--------:|
     | 1  |  9 | Red      |
@@ -61,6 +65,7 @@ default hues in standard xterm colours.
     | 5  | 12 | Blue     |
     | 6  | 13 | Magenta  |
     | 7  | 14 | Cyan     |
+    ```
 
 ## Foreground/Background colour combinations
 Agnostic will not use the following foreground/background
