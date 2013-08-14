@@ -47,6 +47,7 @@ default hues in standard xterm colours.
     | 0  |  8 | Black  |
     | 7  | 15 | White  |
     ```
+
   * For light themes:
     ```
     | BG | FG | Colour |
