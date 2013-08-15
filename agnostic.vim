@@ -72,7 +72,7 @@ highlight Constant               ctermfg=15 cterm=bold
 highlight Identifier             ctermfg=12 cterm=none
 "        *Identifier      variables, etc
 
-highlight Statement              ctermfg=10 cterm=bold
+highlight Statement              ctermfg=13 cterm=bold
 "        *Statement       any statement
 "         Conditional     if, then, else, endif, switch, etc.
 "         Repeat          for, do, while, etc.
@@ -81,7 +81,7 @@ highlight Statement              ctermfg=10 cterm=bold
 "         Keyword         any other keyword
 "         Exception       try, catch, throw
 
-highlight PreProc                ctermfg=13 cterm=bold
+highlight PreProc                ctermfg=10 cterm=bold
 "        *PreProc         generic Preprocessor
 "         Include         preprocessor #include
 "         Define          preprocessor #define
@@ -115,9 +115,9 @@ highlight Todo         ctermbg=3 ctermfg=9  cterm=reverse
 "----------------------------------------
 " Special highlights
 
-highlight String                 ctermfg=13 cterm=none
+highlight String                 ctermfg=10 cterm=none
 "        *String       "Things inside quotes" 'like these'
-highlight Function               ctermfg=10 cterm=bold
+highlight Function               ctermfg=13 cterm=bold
 "        *Function     the "foo" part of "def foo()"
 highlight Delimiter              ctermfg=12 cterm=none
 "        *Delimiter    Delimiters for things, like "
