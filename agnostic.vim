@@ -130,11 +130,11 @@ highlight IncSearch    ctermbg=2 ctermfg=15 cterm=none
 
 " Status line
 
-highlight StatusLine   ctermbg=3 ctermfg=4  cterm=reverse
+highlight StatusLine   ctermbg=2 ctermfg=15 cterm=bold
 "        *StatusLine   The status line for the active window
-highlight StatusLineNC ctermbg=7 ctermfg=12 cterm=none
+highlight StatusLineNC ctermbg=0 ctermfg=12 cterm=reverse
 "        *StatusLineNC The status line for the non active window
-highlight LineNr       ctermbg=7 ctermfg=12 cterm=none
+highlight LineNr       ctermbg=0 ctermfg=12 cterm=reverse
 "        *LineNr       Line numbers
 
 " Diff
