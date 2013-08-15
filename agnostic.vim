@@ -123,6 +123,10 @@ highlight Delimiter              ctermfg=12 cterm=none
 "        *Delimiter    Delimiters for things, like "
 highlight Visual       ctermbg=3 ctermfg=15 cterm=none
 "        *Visual       Visual mode appearance
+highlight Search       ctermbg=5 ctermfg=15 cterm=none
+"        *Search       Things you have searched for
+highlight IncSearch    ctermbg=2 ctermfg=15 cterm=none
+"        *Search       Things you have searched for
 
 " Status line
 
