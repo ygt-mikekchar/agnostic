@@ -1,0 +1,33 @@
+*agnostic.vim* for Vim version 7.3 or newer. Modified: 2013 Aug 15
+
+              Agnostic Vim Colorscheme by Mike Charlton ~
+
+Agnostic Colorscheme                                     *agnostic*
+                                                         *agnostic-help*
+                                                         *agnostic-colors*
+                                                         *agnostic-colorscheme*
+
+Agnostic is a Vim colour scheme geared towards helping people who
+use tmux to remote pair program.  When doing such pair programming
+it often happens that each person has a preference for colour
+schemes, especially dark vs light backgrounds.  Unfortunately
+most vim colour schemes are geared towards specific colour
+decisions.
+
+Apart from a few rules, Agnostic tries not to force specific
+colour choices and focusses on keeping readability over
+a wide variety of choices.  This way, two or more people
+can pair using vim over tmux and still use their own
+preference for dark vs light themes.
+
+Because Agnostic is meant to be used over tmux, it is a
+colour xterm (cterm) only theme.  Users can set up their
+colours in their terminal settings.  The rules for setting
+up the colours are as follows.
+
+===========================================================================
+0. Install                                           *agnostic-install*
+
+Documentation to be written.
+
+
