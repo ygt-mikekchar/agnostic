@@ -130,7 +130,7 @@ highlight IncSearch    ctermbg=2 ctermfg=15 cterm=none
 
 " Status line
 
-highlight StatusLine   ctermbg=2 ctermfg=15 cterm=bold
+highlight StatusLine   ctermbg=6 ctermfg=15 cterm=bold
 "        *StatusLine   The status line for the active window
 highlight StatusLineNC ctermbg=0 ctermfg=12 cterm=reverse
 "        *StatusLineNC The status line for the non active window
