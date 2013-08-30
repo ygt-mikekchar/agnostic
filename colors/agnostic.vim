@@ -162,3 +162,9 @@ highlight vimCommand             ctermfg=15 cterm=bold
 highlight goBlock                ctermfg=1  cterm=reverse 
 "        *goBlock      Go Blocks
 
+" Syntastic
+" Highlighting of errors and warnings that Syntastic flags
+" Only supported with some Syntastic checkers
+highlight SyntasticErrorLine ctermbg=3 ctermfg=9  cterm=none
+highlight SyntasticWarningLine ctermbg=3 ctermfg=9  cterm=reverse
+
