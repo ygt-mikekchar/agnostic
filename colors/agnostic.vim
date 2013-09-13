@@ -168,3 +168,11 @@ highlight goBlock                ctermfg=1  cterm=reverse
 highlight SyntasticErrorLine ctermbg=3 ctermfg=9  cterm=none
 highlight SyntasticWarningLine ctermbg=3 ctermfg=9  cterm=reverse
 
+" Markdown
+highlight markdownH1 ctermbg=6 ctermfg=15 cterm=bold
+highlight markdownH2 ctermbg=6 ctermfg=15 cterm=none
+highlight markdownH3 ctermfg=15 cterm=bold
+highlight markdownHeadingRule ctermfg=8 cterm=bold
+highlight markdownItalic ctermfg=11 cterm=none 
+highlight markdownBoldItalic ctermfg=13 cterm=bold 
+highlight markdownAutomaticLink ctermfg=12 cterm=none
