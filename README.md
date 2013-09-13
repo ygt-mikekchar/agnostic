@@ -1,7 +1,5 @@
 # Vim Agnostic Colour Scheme
 
-FIXME: Screenshots are out of date
-
 Agnostic is a Vim colour scheme geared towards helping people who
 use tmux to remote pair program.  When doing such pair programming
 it often happens that each person has a preference for colour
@@ -19,6 +17,17 @@ Because Agnostic is meant to be used over tmux, it is a
 colour xterm (cterm) only theme.  Users can set up their
 colours in their terminal settings.  The rules for setting
 up the colours are as follows.
+
+## Screenshots
+
+If you look in the screenshots directory you can see the use of
+agnostic with various palettes.
+
+   * agnostic-ss.jpg: Agnostic's light theme
+   * agnostic-dark-ss.jpg: Agnostic's dark theme
+   * ITerm.jpg: Default colours on Mac ITerm2 (and Linux console)
+   * solarized-ss.jpg: Solarized dark colours
+   * tango.jpg: Gnome-terminal tango colours
 
 ## Background and Foreground Colours
    * 0 :  Normal Background Colour
