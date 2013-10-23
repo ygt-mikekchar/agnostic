@@ -112,12 +112,6 @@ highlight Todo         ctermbg=3 ctermfg=9  cterm=reverse
 "                         keywords TODO FIXME and XXX
 "
 
-highlight CursorColumn cterm=NONE ctermbg=9
-highlight ColorColumn cterm=NONE ctermbg=6
-highlight CursorLine   cterm=NONE ctermbg=6
-
-" highlight CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
-" highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 "----------------------------------------
 " Special highlights
@@ -153,6 +147,13 @@ highlight DiffDelete   ctermbg=1 ctermfg=15 cterm=none
 " Folding
 highlight Folded       ctermbg=7 ctermfg=8  cterm=none
 highlight FoldedColumn ctermbg=7 ctermfg=8  cterm=none
+
+" Cursor columns and lines
+" Note CursorColumn is setting the bg colour to a fg colour
+" We should consider setting it to 1 and cterm=reverse
+highlight CursorColumn cterm=none ctermbg=9
+highlight ColorColumn cterm=none ctermbg=6
+highlight CursorLine   cterm=none ctermbg=6
 
 " Ruby Specific
 
