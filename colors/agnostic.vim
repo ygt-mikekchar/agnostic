@@ -161,6 +161,8 @@ highlight rubyDefine   ctermbg=0 ctermfg=13 cterm=bold
 "        *rubyDefine   Ruby def
 " TODO Fix having to set the ctermbg here.  It is inheritting 8 from
 " somewhere.
+highlight rubySymbol   ctermfg=14 cterm=bold
+highlight rubyBlock    ctermfg=11 cterm=none
 
 " Vim Specific
 highlight vimCommand             ctermfg=15 cterm=bold
