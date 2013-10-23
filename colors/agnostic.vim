@@ -15,12 +15,12 @@
 "      7, 15: White
 "
 "    For light themes:
-"     BG  FG 
+"     BG  FG
 "      0,  8: White
 "      7, 15: Black
 "
 "    For all themes:
-"     BG  FG 
+"     BG  FG
 "      1,  9: Red
 "      2, 10: Green
 "      3, 11: Yellow
@@ -112,6 +112,13 @@ highlight Todo         ctermbg=3 ctermfg=9  cterm=reverse
 "                         keywords TODO FIXME and XXX
 "
 
+highlight CursorColumn cterm=NONE ctermbg=9
+highlight ColorColumn cterm=NONE ctermbg=6
+highlight CursorLine   cterm=NONE ctermbg=6
+
+" highlight CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+" highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+
 "----------------------------------------
 " Special highlights
 
@@ -159,7 +166,7 @@ highlight vimCommand             ctermfg=15 cterm=bold
 "        *vimCommand   Vim commands in .vimrc, etc
 
 " Go Specific
-highlight goBlock                ctermfg=1  cterm=reverse 
+highlight goBlock                ctermfg=1  cterm=reverse
 "        *goBlock      Go Blocks
 
 " Syntastic
@@ -174,6 +181,6 @@ highlight markdownH2 ctermbg=6 ctermfg=15 cterm=none
 highlight markdownH3 ctermfg=15 cterm=bold
 highlight markdownHeadingRule ctermfg=8 cterm=bold
 highlight markdownHeadingDelimiter ctermfg=8 cterm=bold
-highlight markdownItalic ctermfg=11 cterm=none 
-highlight markdownBoldItalic ctermfg=13 cterm=bold 
+highlight markdownItalic ctermfg=11 cterm=none
+highlight markdownBoldItalic ctermfg=13 cterm=bold
 highlight markdownAutomaticLink ctermfg=12 cterm=none
