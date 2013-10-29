@@ -151,9 +151,9 @@ highlight FoldedColumn ctermbg=7 ctermfg=8  cterm=none
 " Cursor columns and lines
 " Note CursorColumn is setting the bg colour to a fg colour
 " We should consider setting it to 1 and cterm=reverse
-highlight CursorColumn cterm=none ctermbg=9
-highlight ColorColumn cterm=none ctermbg=6
-highlight CursorLine   cterm=none ctermbg=6
+highlight CursorColumn ctermbg=6
+highlight ColorColumn  ctermbg=6
+highlight CursorLine   ctermbg=6
 
 " Ruby Specific
 
