@@ -59,7 +59,7 @@
 highlight Normal       ctermbg=0 ctermfg=15 cterm=none
 "        *Normal          any text
 
-highlight Comment                ctermfg=9  cterm=bold
+highlight Comment                ctermfg=12
 "        *Comment         like this line
 
 highlight Constant               ctermfg=15 cterm=bold
@@ -116,9 +116,9 @@ highlight Todo         ctermbg=3 ctermfg=9  cterm=reverse
 "----------------------------------------
 " Special highlights
 
-highlight String                 ctermfg=10 cterm=none
+highlight String                 ctermfg=9 cterm=none
 "        *String       "Things inside quotes" 'like these'
-highlight Function               ctermfg=13 cterm=bold
+highlight Function               ctermfg=9 cterm=bold
 "        *Function     the "foo" part of "def foo()"
 highlight Delimiter              ctermfg=12 cterm=none
 "        *Delimiter    Delimiters for things, like "
@@ -157,12 +157,12 @@ highlight CursorLine   ctermbg=6
 
 " Ruby Specific
 
-highlight rubyDefine   ctermbg=0 ctermfg=13 cterm=bold
+highlight rubyDefine   ctermbg=0 ctermfg=15 cterm=bold
 "        *rubyDefine   Ruby def
 " TODO Fix having to set the ctermbg here.  It is inheritting 8 from
 " somewhere.
-highlight rubySymbol   ctermfg=14 cterm=bold
-highlight rubyBlock    ctermfg=11 cterm=none
+highlight rubySymbol   ctermfg=13
+highlight rubyBlock    ctermfg=15 cterm=bold
 
 " Vim Specific
 highlight vimCommand             ctermfg=15 cterm=bold
