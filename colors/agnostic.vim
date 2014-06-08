@@ -14,8 +14,8 @@
 " Default Colour Hues are as follows:
 "    For dark themes:
 "    Default         Highlighted
-"     0: Black,       8: Dark Grey
-"    15: While,       7: Light Grey
+"     0: Black, base02      8: Dark Grey, base03
+"    15: While, base3       7: Light Grey, base2
 "
 "    For light themes:
 "    Default         Highlighted
@@ -24,12 +24,12 @@
 "
 "    For all themes:
 "     BG  FG
-"      1,  9: Red
-"      2, 10: Green
-"      3, 11: Yellow
-"      4, 12: Blue
-"      5, 13: Magenta
-"      6, 14: Cyan
+"      1,  9: Red     red,     orange
+"      2, 10: Green   green,   base01
+"      3, 11: Yellow  yellow,  base00
+"      4, 12: Blue    blue,    base0
+"      5, 13: Magenta magenta, violet
+"      6, 14: Cyan    cyan,    base1
 
 " Colour mixing:
 "   The following background/foreground combinations
@@ -65,20 +65,20 @@
 
 " Standard highlight groups
 
-highlight Normal       ctermbg=0 ctermfg=15 cterm=none
+highlight Normal       ctermbg=0 ctermfg=7 cterm=none
 "        *Normal          any text
 
 highlight Comment                ctermfg=12
 "        *Comment         like this line
 
-highlight Constant               ctermfg=15 cterm=bold
+highlight Constant               ctermfg=14 cterm=bold
 "        *Constant        constant expressions
 "         Character       'c', '\n'
 "         Number          234, 0xff
 "         Boolean         TRUE, false
 "         Float           2.3e10
 
-highlight Identifier             ctermfg=12 cterm=none
+highlight Identifier             ctermfg=4 cterm=none
 "        *Identifier      variables, etc
 
 highlight Statement              ctermfg=13 cterm=bold
@@ -90,14 +90,14 @@ highlight Statement              ctermfg=13 cterm=bold
 "         Keyword         any other keyword
 "         Exception       try, catch, throw
 
-highlight PreProc                ctermfg=10 cterm=bold
+highlight PreProc                ctermfg=9 cterm=bold
 "        *PreProc         generic Preprocessor
 "         Include         preprocessor #include
 "         Define          preprocessor #define
 "         Macro           same as Define
 "         PreCondit       preprocessor #if, #else, #endif, etc.
 
-highlight Type                   ctermfg=12 cterm=bold
+highlight Type                   ctermfg=3 cterm=none
 "        *Type            int, long, char, etc.
 "         StorageClass    static, register, volatile, etc.
 "         Structure       struct, union, enum, etc.
@@ -110,13 +110,13 @@ highlight Special                ctermfg=9  cterm=bold
 "         SpecialComment  special things inside a comment
 "         Debug           debugging statements
 
-highlight Underlined             ctermfg=12 cterm=underline
+highlight Underlined             ctermfg=13 cterm=underline
 "        *Underlined      text that stands out, HTML links
 
-highlight Error        ctermbg=3 ctermfg=9  cterm=none
+highlight Error        ctermfg=9  cterm=none
 "        *Error           any erroneous construct
 
-highlight Todo         ctermbg=3 ctermfg=9  cterm=reverse
+highlight Todo         ctermfg=9  cterm=none
 "        *Todo            anything that needs extra attention; mostly the
 "                         keywords TODO FIXME and XXX
 "
@@ -125,17 +125,17 @@ highlight Todo         ctermbg=3 ctermfg=9  cterm=reverse
 "----------------------------------------
 " Special highlights
 
-highlight String                 ctermfg=9 cterm=none
+highlight String                 ctermfg=14 cterm=none
 "        *String       "Things inside quotes" 'like these'
 highlight Function               ctermfg=9 cterm=bold
 "        *Function     the "foo" part of "def foo()"
 highlight Delimiter              ctermfg=12 cterm=none
 "        *Delimiter    Delimiters for things, like "
-highlight Visual       ctermbg=3 ctermfg=15 cterm=none
+highlight Visual       ctermbg=8 cterm=none
 "        *Visual       Visual mode appearance
-highlight Search       ctermbg=5 ctermfg=15 cterm=none
+highlight Search       ctermbg=6 ctermfg=15 cterm=none
 "        *Search       Things you have searched for
-highlight IncSearch    ctermbg=2 ctermfg=15 cterm=none
+highlight IncSearch    ctermbg=3 ctermfg=15 cterm=none
 "        *Search       Things you have searched for
 
 " Status line
