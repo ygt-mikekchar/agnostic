@@ -139,10 +139,11 @@ highlight IncSearch    ctermbg=3 ctermfg=15 cterm=none
 "        *Search       Things you have searched for
 
 " Messages
-highlight ErrorMsg     ctermbg=6 ctermfg=15 cterm=bold
-highlight WarningMsg   ctermbg=6 ctermfg=15 cterm=bold
+highlight ErrorMsg     ctermbg=1 ctermfg=15 cterm=none
+highlight WarningMsg   ctermbg=3 ctermfg=15 cterm=bold
 highlight ModeMsg      ctermbg=6 ctermfg=15 cterm=bold
-highlight MoreMsg      ctermbg=6 ctermfg=15 cterm=bold
+highlight MoreMsg      ctermbg=5 ctermfg=15 cterm=bold
+highlight Question     ctermbg=5 ctermfg=15 cterm=bold
 
 " Status line
 highlight StatusLine   ctermbg=6 ctermfg=15 cterm=bold
