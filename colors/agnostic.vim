@@ -138,8 +138,13 @@ highlight Search       ctermbg=6 ctermfg=15 cterm=none
 highlight IncSearch    ctermbg=3 ctermfg=15 cterm=none
 "        *Search       Things you have searched for
 
-" Status line
+" Messages
+highlight ErrorMsg     ctermbg=6 ctermfg=15 cterm=bold
+highlight WarningMsg   ctermbg=6 ctermfg=15 cterm=bold
+highlight ModeMsg      ctermbg=6 ctermfg=15 cterm=bold
+highlight MoreMsg      ctermbg=6 ctermfg=15 cterm=bold
 
+" Status line
 highlight StatusLine   ctermbg=6 ctermfg=15 cterm=bold
 "        *StatusLine   The status line for the active window
 highlight StatusLineNC ctermbg=0 ctermfg=12 cterm=reverse
