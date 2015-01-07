@@ -113,10 +113,10 @@ highlight Special                ctermfg=9  cterm=bold
 highlight Underlined             ctermfg=13 cterm=underline
 "        *Underlined      text that stands out, HTML links
 
-highlight Error        ctermfg=9  cterm=none
+highlight Error        ctermbg=1 ctermfg=15 cterm=none
 "        *Error           any erroneous construct
 
-highlight Todo         ctermfg=9  cterm=none
+highlight Todo         ctermbg=1 ctermfg=15 cterm=none
 "        *Todo            anything that needs extra attention; mostly the
 "                         keywords TODO FIXME and XXX
 "
