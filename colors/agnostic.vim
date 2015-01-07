@@ -197,3 +197,6 @@ highlight markdownHeadingDelimiter ctermfg=8 cterm=bold
 highlight markdownItalic ctermfg=11 cterm=none
 highlight markdownBoldItalic ctermfg=13 cterm=bold
 highlight markdownAutomaticLink ctermfg=12 cterm=none
+
+" Files
+highlight Directory ctermbg=2 ctermfg=15 cterm=bold
