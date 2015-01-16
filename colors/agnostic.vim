@@ -145,6 +145,9 @@ highlight ModeMsg      ctermbg=6 ctermfg=15 cterm=bold
 highlight MoreMsg      ctermbg=5 ctermfg=15 cterm=bold
 highlight Question     ctermbg=5 ctermfg=15 cterm=bold
 
+" Pmenu
+" FIXME: TODO
+
 " Status line
 highlight StatusLine   ctermbg=6 ctermfg=15 cterm=bold
 "        *StatusLine   The status line for the active window
