@@ -54,7 +54,7 @@ uses bold for those colours.
 
 ## Default Colour Hues:
 You are welcome to select any hue for the colours that
-you prefer, but for some readability the theme makes
+you prefer, but for readability the theme makes
 some assumptions.  These assumptions are based on the
 default hues in standard xterm colours.
 
