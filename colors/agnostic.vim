@@ -113,10 +113,10 @@ highlight Special                ctermfg=9  cterm=bold
 highlight Underlined             ctermfg=13 cterm=underline
 "        *Underlined      text that stands out, HTML links
 
-highlight Error        ctermfg=9  cterm=none
+highlight Error        ctermbg=1 ctermfg=15 cterm=none
 "        *Error           any erroneous construct
 
-highlight Todo         ctermfg=9  cterm=none
+highlight Todo         ctermbg=1 ctermfg=15 cterm=none
 "        *Todo            anything that needs extra attention; mostly the
 "                         keywords TODO FIXME and XXX
 "
@@ -138,8 +138,17 @@ highlight Search       ctermbg=6 ctermfg=15 cterm=none
 highlight IncSearch    ctermbg=3 ctermfg=15 cterm=none
 "        *Search       Things you have searched for
 
-" Status line
+" Messages
+highlight ErrorMsg     ctermbg=1 ctermfg=15 cterm=none
+highlight WarningMsg   ctermbg=3 ctermfg=15 cterm=bold
+highlight ModeMsg      ctermbg=6 ctermfg=15 cterm=bold
+highlight MoreMsg      ctermbg=5 ctermfg=15 cterm=bold
+highlight Question     ctermbg=5 ctermfg=15 cterm=bold
 
+" Pmenu
+" FIXME: TODO
+
+" Status line
 highlight StatusLine   ctermbg=6 ctermfg=15 cterm=bold
 "        *StatusLine   The status line for the active window
 highlight StatusLineNC ctermbg=0 ctermfg=12 cterm=reverse
@@ -197,3 +206,6 @@ highlight markdownHeadingDelimiter ctermfg=8 cterm=bold
 highlight markdownItalic ctermfg=11 cterm=none
 highlight markdownBoldItalic ctermfg=13 cterm=bold
 highlight markdownAutomaticLink ctermfg=12 cterm=none
+
+" Files
+highlight Directory ctermbg=2 ctermfg=15 cterm=bold
