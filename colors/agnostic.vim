@@ -172,7 +172,7 @@ highlight FoldedColumn ctermbg=8 ctermfg=7  cterm=none
 highlight CursorColumn ctermbg=8
 highlight ColorColumn  ctermbg=8
 " Unfortunately we have to set term/cterm to none to remove underlines
-highlight CursorLine   term=none cterm=none ctermbg=8 
+highlight CursorLine   term=none cterm=none ctermbg=8
 
 " Ruby Specific
 
@@ -209,3 +209,9 @@ highlight markdownAutomaticLink ctermfg=12 cterm=none
 
 " Files
 highlight Directory ctermbg=2 ctermfg=15 cterm=bold
+
+" Spell checking
+hi SpellBad cterm=underline ctermfg=1 ctermbg=0
+hi SpellCap cterm=underline ctermfg=4 ctermbg=0
+hi SpellRare cterm=underline ctermfg=4 ctermbg=0
+hi SpellLocal cterm=underline ctermfg=6 ctermbg=0
