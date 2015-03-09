@@ -18,7 +18,7 @@ colour xterm (cterm) only theme.  Users can set up their
 colours in their terminal settings.  The rules for setting
 up the colours are as follows.
 
-## Screenshots
+## Screenshots (*VERY old -- Not representative any more)
 
 If you look in the screenshots directory you can see the use of
 agnostic with various palettes.
