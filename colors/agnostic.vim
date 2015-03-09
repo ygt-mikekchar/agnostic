@@ -11,25 +11,30 @@
 "    Colours 0 - 6  are background colours
 "    Colours 9 - 17 are foreground colours
 "
-" Default Colour Hues are as follows:
+" Default Colour Hues are as follows.  The values
+" on the left hand side are normal Xterm themes
+" and the values on the right are solarized.
+" See the section below for information on solarized
+" compatibility.
+"
 "    For dark themes:
-"    Default         Highlighted
-"     0: Black, base02      8: Dark Grey, base03
+"    Default                Highlighted
+"     0: Black, base02      8: Dark Grey,  base03
 "    15: While, base3       7: Light Grey, base2
 "
 "    For light themes:
-"    Default         Highlighted
-"    0: White,       8: Light Grey
-"    15: Black,      7: Dark Grey
+"    Default                Highlighted
+"     0: White, base02      8: Light Grey, base03
+"    15: Black, base3       7: Dark Grey,  base2
 "
 "    For all themes:
-"     BG  FG
-"      1,  9: Red     red,     orange
-"      2, 10: Green   green,   base01
-"      3, 11: Yellow  yellow,  base00
-"      4, 12: Blue    blue,    base0
-"      5, 13: Magenta magenta, violet
-"      6, 14: Cyan    cyan,    base1
+"     BG                    FG
+"      1: Red,     red,      9: red      orange
+"      2: Green,   green,   10: green    base01
+"      3: Yellow,  yellow,  11: yellow   base00
+"      4: Blue,    blue,    12: blue     base0
+"      5: Magenta, magenta, 13: magenta  violet
+"      6: Cyan,    cyan,    14: cyan     base1
 
 " Colour mixing:
 "   The following background/foreground combinations
@@ -62,6 +67,33 @@
 "  - To provide compatibility with Solarized, 8 is a background
 "    colour and 7 is a foreground colour.  Thus, if you use colours
 "    7 or 8, you must not use bold.
+"
+" Compatibility with Solarized
+"   Keeping compatibility with solarized represents a challenge.
+"   Solarized keeps the standard xterm hue settings for
+"   the first 8 colours, but changes the second 8 colours to
+"   shades of grey.  Since agnostic uses the second 8 colours
+"   for foreground colours, this basically makes the agnostic
+"   theme colourless when using a solarized colour palette.
+"
+"   Because compatibility with solarized is a very high priority,
+"   I have tried to mix up some of the foreground and background
+"   colours where it would improve readability for a solarized
+"   palette and doesn't detract from the other supported
+"   palettes.
+"
+"   Solarized is also a pain because in order to change the
+"   theme from dark to light, they change the vim theme instead
+"   of the palette.  This means that no matter whether you are
+"   using a dark solarized palette or light solarized palette
+"   with agnostic, it will always come out looking like the
+"   solarized dark theme.  There is no way to fix this, unfortunately.
+"
+"   A very high priority is to create agnostic palettes that
+"   mimic both dark and light solarized themes to an extent
+"   that most solarized users will not be bothered by the
+"   differences.  The current agnostic light and agnostic
+"   dark themes are close but not perfect.
 
 " Standard highlight groups
 
@@ -208,10 +240,13 @@ highlight markdownBoldItalic ctermfg=13 cterm=bold
 highlight markdownAutomaticLink ctermfg=12 cterm=none
 
 " Files
-highlight Directory ctermbg=2 ctermfg=15 cterm=bold
+highlight Directory ctermbg=0 ctermfg=15 cterm=none
 
 " Spell checking
 hi SpellBad cterm=underline ctermfg=1 ctermbg=0
 hi SpellCap cterm=underline ctermfg=4 ctermbg=0
 hi SpellRare cterm=underline ctermfg=4 ctermbg=0
 hi SpellLocal cterm=underline ctermfg=6 ctermbg=0
+
+" Various
+highlight Title ctermbg=0 ctermfg=9 cterm=none
