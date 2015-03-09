@@ -209,3 +209,6 @@ highlight markdownAutomaticLink ctermfg=12 cterm=none
 
 " Files
 highlight Directory ctermbg=0 ctermfg=15 cterm=none
+
+" Various
+highlight Title ctermbg=0 ctermfg=9 cterm=none
