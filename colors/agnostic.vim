@@ -242,5 +242,11 @@ highlight markdownAutomaticLink ctermfg=12 cterm=none
 " Files
 highlight Directory ctermbg=0 ctermfg=15 cterm=none
 
+" Spell checking
+hi SpellBad cterm=underline ctermfg=1 ctermbg=0
+hi SpellCap cterm=underline ctermfg=4 ctermbg=0
+hi SpellRare cterm=underline ctermfg=4 ctermbg=0
+hi SpellLocal cterm=underline ctermfg=6 ctermbg=0
+
 " Various
 highlight Title ctermbg=0 ctermfg=9 cterm=none
