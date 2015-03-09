@@ -110,7 +110,7 @@ highlight Constant               ctermfg=14 cterm=bold
 "         Boolean         TRUE, false
 "         Float           2.3e10
 
-highlight Identifier             ctermfg=4 cterm=none
+highlight Identifier             ctermfg=12 cterm=none
 "        *Identifier      variables, etc
 
 highlight Statement              ctermfg=13 cterm=bold
@@ -129,7 +129,7 @@ highlight PreProc                ctermfg=9 cterm=bold
 "         Macro           same as Define
 "         PreCondit       preprocessor #if, #else, #endif, etc.
 
-highlight Type                   ctermfg=3 cterm=none
+highlight Type                   ctermfg=11 cterm=none
 "        *Type            int, long, char, etc.
 "         StorageClass    static, register, volatile, etc.
 "         Structure       struct, union, enum, etc.
@@ -199,8 +199,6 @@ highlight Folded       ctermbg=8 ctermfg=7  cterm=none
 highlight FoldedColumn ctermbg=8 ctermfg=7  cterm=none
 
 " Cursor columns and lines
-" Note CursorColumn is setting the bg colour to a fg colour
-" We should consider setting it to 1 and cterm=reverse
 highlight CursorColumn ctermbg=8
 highlight ColorColumn  ctermbg=8
 " Unfortunately we have to set term/cterm to none to remove underlines
