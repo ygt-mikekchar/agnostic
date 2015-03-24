@@ -227,6 +227,11 @@ highlight goBlock                ctermfg=1  cterm=reverse
 highlight SyntasticErrorLine ctermbg=3 ctermfg=9  cterm=none
 highlight SyntasticWarningLine ctermbg=3 ctermfg=9  cterm=reverse
 
+" HTML
+highlight htmlH1 ctermbg=6 ctermfg=15 cterm=bold
+highlight htmlH2 ctermbg=6 ctermfg=15 cterm=none
+highlight htmlH3 ctermfg=15 cterm=bold
+
 " Markdown
 highlight markdownH1 ctermbg=6 ctermfg=15 cterm=bold
 highlight markdownH2 ctermbg=6 ctermfg=15 cterm=none
