@@ -22,11 +22,11 @@ colours in their terminal settings.
 If you look in the screenshots directory you can see the use of
 agnostic with various palettes.
 
-   * ITerm.jpg: Default colours on Mac ITerm2 (and Xterm and Linux console)
-   * solarized.jpg: Solarized dark colours
-   * tango.jpg: tango colours
-   * agnostic-light.jpg: Agnostic's light theme (now called pastel)
-   * agnostic-dark.jpg: Agnostic's dark theme (now called chalkboard)
+* ITerm.jpg: Default colours on Mac ITerm2 (and Xterm and Linux console)
+* solarized.jpg: Solarized dark colours
+* tango.jpg: tango colours
+* agnostic-light.jpg: Agnostic's light theme (now called pastel)
+* agnostic-dark.jpg: Agnostic's dark theme (now called chalkboard)
 
 ## Installation
 
@@ -39,10 +39,10 @@ install it with pathogen.
 Palettes are up to you to install.  Agnostic is intended to work
 well with the following palettes:
 
-    * Standard xterm, iterm, linux-terminal (see note 1)
-    * Solarized (see note 2)
-    * Tango (the only one without a note -- it is lovely)
-    * Tomorrow and other Base16 palettes (see note 3)
+* Standard xterm, iterm, linux-terminal (see note 1)
+* Solarized (see note 2)
+* Tango (the only one without a note -- it is lovely)
+* Tomorrow and other Base16 palettes (see note 3)
 
 Note 1: The dark blue on black background is very hard to see, but there
         is little I can do about it.  See the following section for
