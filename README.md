@@ -17,16 +17,16 @@ Because Agnostic is meant to be used over tmux, it is a
 16 colour xterm (cterm) only theme.  Users can set up their
 colours in their terminal settings.
 
-## Screenshots (*VERY old -- Not representative any more)
+## Screenshots 
 
 If you look in the screenshots directory you can see the use of
 agnostic with various palettes.
 
-   * agnostic-ss.jpg: Agnostic's light theme
-   * agnostic-dark-ss.jpg: Agnostic's dark theme
-   * ITerm.jpg: Default colours on Mac ITerm2 (and Linux console)
-   * solarized-ss.jpg: Solarized dark colours
-   * tango.jpg: Gnome-terminal tango colours
+   * ITerm.jpg: Default colours on Mac ITerm2 (and Xterm and Linux console)
+   * solarized.jpg: Solarized dark colours
+   * tango.jpg: tango colours
+   * agnostic-light.jpg: Agnostic's light theme (now called pastel)
+   * agnostic-dark.jpg: Agnostic's dark theme (now called chalkboard)
 
 ## Installation
 
