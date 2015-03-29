@@ -233,11 +233,14 @@ highlight htmlH2 ctermbg=6 ctermfg=15 cterm=none
 highlight htmlH3 ctermfg=15 cterm=bold
 
 " Markdown
-highlight markdownH1 ctermbg=6 ctermfg=15 cterm=bold
-highlight markdownH2 ctermbg=6 ctermfg=15 cterm=none
-highlight markdownH3 ctermfg=15 cterm=bold
-highlight markdownHeadingRule ctermfg=7 cterm=bold
-highlight markdownHeadingDelimiter ctermfg=7 cterm=bold
+highlight markdownH1 ctermfg=11 cterm=bold
+highlight markdownH2 ctermfg=11 cterm=none
+highlight markdownH3 ctermfg=11 cterm=none
+highlight markdownH4 ctermfg=11 cterm=none
+highlight markdownH5 ctermfg=11 cterm=none
+highlight markdownH6 ctermfg=11 cterm=none
+highlight markdownHeadingRule ctermfg=12 cterm=bold
+highlight markdownHeadingDelimiter ctermfg=12 cterm=bold
 highlight markdownItalic ctermfg=11 cterm=none
 highlight markdownBoldItalic ctermfg=13 cterm=bold
 highlight markdownAutomaticLink ctermfg=12 cterm=none
