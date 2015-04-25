@@ -11,7 +11,7 @@ let g:colors_name="agnostic"
 "    7 - Highlighted Foreground Colour
 "
 "    Colours 0 - 6  are background colours
-"    Colours 9 - 17 are foreground colours
+"    Colours 9 - 15 are foreground colours
 "
 " Default Colour Hues are as follows.  The values
 " on the left hand side are normal Xterm themes
@@ -183,12 +183,11 @@ highlight Question     ctermbg=5 ctermfg=15 cterm=bold
 " FIXME: TODO
 
 " Status line
-" highlight StatusLine   ctermbg=6 ctermfg=15 cterm=bold
-highlight StatusLine ctermfg=8 ctermbg=2 cterm=none
+highlight StatusLine   ctermbg=7 ctermfg=9  cterm=bold
 "        *StatusLine   The status line for the active window
-highlight StatusLineNC ctermbg=0 ctermfg=12 cterm=reverse
+highlight StatusLineNC ctermbg=7 ctermfg=4  cterm=none
 "        *StatusLineNC The status line for the non active window
-highlight LineNr       ctermbg=0 ctermfg=12 cterm=reverse
+highlight LineNr       ctermbg=7 ctermfg=8  cterm=none
 "        *LineNr       Line numbers
 
 " Diff
