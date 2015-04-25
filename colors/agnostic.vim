@@ -1,3 +1,5 @@
+let g:colors_name="agnostic"
+
 " This scheme allows people to customize their colours in
 " their terminals.  The colours should follow these rules.
 "
