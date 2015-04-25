@@ -99,7 +99,7 @@ let g:colors_name="agnostic"
 
 " Standard highlight groups
 
-highlight Normal       ctermbg=0 ctermfg=7 cterm=none
+highlight Normal       ctermbg=0 ctermfg=15 cterm=none
 "        *Normal          any text
 
 highlight Comment                ctermfg=12
@@ -185,7 +185,7 @@ highlight Question     ctermbg=5 ctermfg=15 cterm=bold
 " Status line
 highlight StatusLine   ctermbg=7 ctermfg=9  cterm=bold
 "        *StatusLine   The status line for the active window
-highlight StatusLineNC ctermbg=7 ctermfg=4  cterm=none
+highlight StatusLineNC ctermbg=7 ctermfg=12 cterm=none
 "        *StatusLineNC The status line for the non active window
 highlight LineNr       ctermbg=7 ctermfg=8  cterm=none
 "        *LineNr       Line numbers
