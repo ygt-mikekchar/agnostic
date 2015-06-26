@@ -197,8 +197,8 @@ highlight DiffAdd      ctermbg=2 ctermfg=15 cterm=none
 highlight DiffDelete   ctermbg=1 ctermfg=15 cterm=none
 
 " Folding
-highlight Folded       ctermbg=8 ctermfg=7  cterm=none
-highlight FoldedColumn ctermbg=8 ctermfg=7  cterm=none
+highlight Folded       ctermbg=6 ctermfg=15  cterm=none
+highlight FoldedColumn ctermbg=6 ctermfg=15  cterm=none
 
 " Cursor columns and lines
 highlight CursorColumn ctermbg=8
