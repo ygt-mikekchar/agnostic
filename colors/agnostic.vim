@@ -258,3 +258,14 @@ hi SpellLocal cterm=underline ctermfg=6 ctermbg=0
 
 " Various
 highlight Title ctermbg=0 ctermfg=9 cterm=none
+
+" Org mode
+highlight org_todo_keyword_TODO ctermfg=9 cterm=bold
+highlight org_todo_keyword_DONE ctermfg=10 cterm=bold
+highlight org_heading1 ctermfg=11 cterm=bold
+highlight org_heading2 ctermfg=11 cterm=none
+highlight org_heading3 ctermfg=11 cterm=none
+highlight org_heading4 ctermfg=11 cterm=none
+highlight org_timestamp ctermfg=13 cterm=none
+highlight org_timestamp_inactive ctermfg=13 cterm=none
+highlight org_deadline_scheduled ctermfg=9 cterm=none
