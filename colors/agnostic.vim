@@ -11,7 +11,7 @@ let g:colors_name="agnostic"
 "    7 - Highlighted Foreground Colour
 "
 "    Colours 0 - 6  are background colours
-"    Colours 9 - 17 are foreground colours
+"    Colours 9 - 15 are foreground colours
 "
 " Default Colour Hues are as follows.  The values
 " on the left hand side are normal Xterm themes
@@ -99,7 +99,7 @@ let g:colors_name="agnostic"
 
 " Standard highlight groups
 
-highlight Normal       ctermbg=0 ctermfg=7 cterm=none
+highlight Normal       ctermbg=0 ctermfg=15 cterm=none
 "        *Normal          any text
 
 highlight Comment                ctermfg=12
@@ -183,11 +183,11 @@ highlight Question     ctermbg=5 ctermfg=15 cterm=bold
 " FIXME: TODO
 
 " Status line
-highlight StatusLine   ctermbg=6 ctermfg=15 cterm=bold
+highlight StatusLine   ctermbg=7 ctermfg=4  cterm=none
 "        *StatusLine   The status line for the active window
-highlight StatusLineNC ctermbg=0 ctermfg=12 cterm=reverse
+highlight StatusLineNC ctermbg=7 ctermfg=8  cterm=none
 "        *StatusLineNC The status line for the non active window
-highlight LineNr       ctermbg=0 ctermfg=12 cterm=reverse
+highlight LineNr       ctermbg=7 ctermfg=8  cterm=none
 "        *LineNr       Line numbers
 
 " Diff
@@ -197,8 +197,8 @@ highlight DiffAdd      ctermbg=2 ctermfg=15 cterm=none
 highlight DiffDelete   ctermbg=1 ctermfg=15 cterm=none
 
 " Folding
-highlight Folded       ctermbg=8 ctermfg=7  cterm=none
-highlight FoldedColumn ctermbg=8 ctermfg=7  cterm=none
+highlight Folded       ctermbg=6 ctermfg=15  cterm=none
+highlight FoldedColumn ctermbg=6 ctermfg=15  cterm=none
 
 " Cursor columns and lines
 highlight CursorColumn ctermbg=8
@@ -258,3 +258,14 @@ hi SpellLocal cterm=underline ctermfg=6 ctermbg=0
 
 " Various
 highlight Title ctermbg=0 ctermfg=9 cterm=none
+
+" Org mode
+highlight org_todo_keyword_TODO ctermfg=9 cterm=bold
+highlight org_todo_keyword_DONE ctermfg=10 cterm=bold
+highlight org_heading1 ctermfg=11 cterm=bold
+highlight org_heading2 ctermfg=11 cterm=none
+highlight org_heading3 ctermfg=11 cterm=none
+highlight org_heading4 ctermfg=11 cterm=none
+highlight org_timestamp ctermfg=13 cterm=none
+highlight org_timestamp_inactive ctermfg=13 cterm=none
+highlight org_deadline_scheduled ctermfg=9 cterm=none
