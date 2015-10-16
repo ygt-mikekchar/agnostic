@@ -183,7 +183,7 @@ highlight Question     ctermbg=5 ctermfg=15 cterm=bold
 " FIXME: TODO
 
 " Status line
-highlight StatusLine   ctermbg=7 ctermfg=4  cterm=none
+highlight StatusLine   ctermbg=7 ctermfg=8  cterm=bold
 "        *StatusLine   The status line for the active window
 highlight StatusLineNC ctermbg=7 ctermfg=8  cterm=none
 "        *StatusLineNC The status line for the non active window
