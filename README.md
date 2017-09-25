@@ -1,21 +1,36 @@
-# Vim Agnostic Colour Scheme
+# Agnostic Colour Scheme for Both Vim and Emacs
 
-Agnostic is a Vim colour scheme geared towards helping people who
+Agnostic is a colour scheme geared towards helping people who
 use tmux to remote pair program.  When doing such pair programming
 it often happens that each person has a preference for colour
 schemes, especially dark vs light backgrounds.  Unfortunately
-most vim colour schemes are geared towards specific colour
-decisions.
+most most colour schemes are geared towards specific colour
+decisions.  Originally this was a Vim colour scheme, but since
+I now use Emacs in Evil mode, there is an emacs theme in the
+emacs directory.
 
 Apart from a few rules, Agnostic tries not to force specific
 colour choices and focusses on keeping readability over
 a wide variety of choices.  This way, two or more people
 can pair using vim over tmux and still use their own
-preference for dark vs light themes.
+preference for dark vs light themes.  Similarly to keep setup
+at a minimum, the colour scheme is designed to be readable
+using as many popular colour palettes as possible.
 
 Because Agnostic is meant to be used over tmux, it is a
 16 colour xterm (cterm) only theme.  Users can set up their
-colours in their terminal settings.
+colours in their terminal settings.  It's important to
+understand the difference between a palette colour and the
+theme's "colour".  There are 16 colours numbered 0 through 15.
+These colours are traditionally set to black, red, green,
+yellow, blue, magenta, cyan, gray and white, followed by
+"bright" versions of those colours.  Your terminal can be
+configured to display any colour you want, though.  In this
+documentation, a "palette" refers to the actual colours you
+see in the terminal while a "colour" refers to the setting
+in your editor.  For instance, you might set colour #1 to
+blue in your terminal -- blue would be the "palette" setting,
+while the "colour" would be red.
 
 ## Screenshots 
 
@@ -30,9 +45,16 @@ agnostic with various palettes.
 
 ## Installation
 
+### Vim
+
 Agnostic can be installed by either simply copying `colors/agnostic.vim`
 to your `.vim/colors` directory, or you can clone the repository and
 install it with pathogen.
+
+### Emacs
+
+Copy the agnostic-theme.el directory into .emacs.d in your home directory.
+Then type 'M-x customize-themes' and select agnostic.
 
 ### Supported Standard Colour Palettes
 
@@ -105,7 +127,7 @@ foreground, which is unfortunate.
 The Solarized colour palette also uses colour 8 as a kind of
 highlighted background colour.  In order to maintain
 compatibility, Agnostic makes 8 a highlighted background
-colour and 7 a highlighted foreground colour.  It never
+colour and 7 a highlighted foreground colour.  It (almost) never
 uses bold for those colours.
 
 Here are the general rules:
