@@ -180,7 +180,8 @@ highlight MoreMsg      ctermbg=5 ctermfg=15 cterm=bold
 highlight Question     ctermbg=5 ctermfg=15 cterm=bold
 
 " Pmenu
-" FIXME: TODO
+highlight Pmenu ctermfg=11 ctermbg=4
+highlight PmenuSel ctermfg=7 ctermbg=8 cterm=bold
 
 " Status line
 highlight StatusLine   ctermbg=7 ctermfg=4  cterm=none
@@ -269,3 +270,10 @@ highlight org_heading4 ctermfg=11 cterm=none
 highlight org_timestamp ctermfg=13 cterm=none
 highlight org_timestamp_inactive ctermfg=13 cterm=none
 highlight org_deadline_scheduled ctermfg=9 cterm=none
+
+
+" Coc
+hi CocErrorSign  ctermfg=9
+hi CocWarningSign  ctermfg=11
+hi CocInfoSign  ctermfg=14
+hi CocHintSign  ctermfg=13
