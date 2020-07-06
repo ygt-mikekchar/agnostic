@@ -180,8 +180,8 @@ highlight MoreMsg      ctermbg=5 ctermfg=15 cterm=bold
 highlight Question     ctermbg=5 ctermfg=15 cterm=bold
 
 " Pmenu
-highlight Pmenu ctermfg=11 ctermbg=4
-highlight PmenuSel ctermfg=7 ctermbg=8 cterm=bold
+highlight PmenuSel ctermfg=11 ctermbg=4
+highlight Pmenu ctermfg=7 ctermbg=8 cterm=bold
 
 " Status line
 highlight StatusLine   ctermbg=7 ctermfg=4  cterm=none
