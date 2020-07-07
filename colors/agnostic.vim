@@ -137,7 +137,7 @@ highlight Type                   ctermfg=11 cterm=none
 "         Structure       struct, union, enum, etc.
 "         Typedef         A typedef
 
-highlight Special                ctermfg=9  cterm=bold
+highlight Special                ctermfg=14  cterm=bold
 "        *Special         any special symbol
 "         SpecialChar     special character in a constant
 "         Tag             you can use CTRL-] on this
