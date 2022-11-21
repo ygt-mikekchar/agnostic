@@ -273,7 +273,8 @@ highlight org_deadline_scheduled ctermfg=9 cterm=none
 
 
 " Coc
-hi CocErrorSign  ctermfg=9
-hi CocWarningSign  ctermfg=11
-hi CocInfoSign  ctermfg=14
-hi CocHintSign  ctermfg=13
+hi CocMenuSel ctermbg=4
+hi CocErrorSign ctermfg=9
+hi CocWarningSign ctermfg=11
+hi CocInfoSign ctermfg=14
+hi CocHintSign ctermfg=13
