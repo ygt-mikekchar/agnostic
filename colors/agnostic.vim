@@ -183,6 +183,10 @@ highlight Question     ctermbg=8 ctermfg=5 cterm=bold
 highlight PmenuSel ctermfg=11 ctermbg=4
 highlight Pmenu ctermfg=7 ctermbg=8 cterm=bold
 
+" Columns
+highlight SignColumn ctermbg=14 ctermfg=8  cterm=none
+highlight Conceal ctermbg=7 ctermfg=8  cterm=none
+
 " Status line
 highlight StatusLine   ctermbg=7 ctermfg=4  cterm=none
 "        *StatusLine   The status line for the active window
@@ -200,6 +204,7 @@ highlight DiffDelete   ctermbg=1 ctermfg=15 cterm=none
 " Folding
 highlight Folded       ctermbg=6 ctermfg=15  cterm=none
 highlight FoldedColumn ctermbg=6 ctermfg=15  cterm=none
+highlight FoldColumn ctermbg=14 ctermfg=8  cterm=none
 
 " Cursor columns and lines
 highlight CursorColumn ctermbg=8
@@ -296,4 +301,4 @@ hi CocWarningFloat ctermfg=11 ctermbg=8
 hi CocInfoFloat ctermfg=14 ctermbg=8
 hi CocHintFloat ctermfg=12 ctermbg=8
 
-hi CocInlayHint ctermfg=0 ctermbg=8
+hi CocInlayHint ctermfg=7 ctermbg=8
