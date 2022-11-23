@@ -274,15 +274,15 @@ highlight org_deadline_scheduled ctermfg=9 cterm=none
 
 " Coc
 hi CocSelectedText ctermfg=9 ctermbg=7
-hi CocCodeLens ctermfg=6 ctermbg=8
-hi CocMarkdownLink ctermfg=3 ctermbg=8
+hi CocCodeLens ctermfg=14 ctermbg=8
+hi CocMarkdownLink ctermfg=12 ctermbg=8
 hi CocDisabled ctermfg=7 ctermbg=8
-hi CocSearch ctermfg=3 ctermbg=8
-hi CocNotificationProgress ctermfg=9 ctermbg=7
+hi CocSearch ctermfg=11 ctermbg=8
+hi CocNotificationProgress ctermfg=9 ctermbg=8
 
-hi CocPumVirtualText ctermfg=12 ctermbg=7
-hi CocFloatDividingLine ctermfg=12 ctermbg=7
-hi CocFloating ctermfg=8 ctermbg=7
+hi CocPumVirtualText ctermfg=12 ctermbg=8
+hi CocFloatDividingLine ctermfg=12 ctermbg=8
+hi CocFloating ctermfg=7 ctermbg=8
 hi CocMenuSel ctermfg=15 ctermbg=4
 hi CocFloatSum ctermfg=15 ctermbg=3
 hi CocFloatSbar ctermfg=15 ctermbg=6
