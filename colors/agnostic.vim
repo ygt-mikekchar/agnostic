@@ -173,11 +173,11 @@ highlight IncSearch    ctermbg=3 ctermfg=15 cterm=none
 "        *Search       Things you have searched for
 
 " Messages
-highlight ErrorMsg     ctermbg=1 ctermfg=15 cterm=none
-highlight WarningMsg   ctermbg=3 ctermfg=15 cterm=bold
-highlight ModeMsg      ctermbg=6 ctermfg=15 cterm=bold
-highlight MoreMsg      ctermbg=5 ctermfg=15 cterm=bold
-highlight Question     ctermbg=5 ctermfg=15 cterm=bold
+highlight ErrorMsg     ctermbg=8 ctermfg=1 cterm=none
+highlight WarningMsg   ctermbg=8 ctermfg=3 cterm=bold
+highlight ModeMsg      ctermbg=8 ctermfg=6 cterm=bold
+highlight MoreMsg      ctermbg=8 ctermfg=5 cterm=bold
+highlight Question     ctermbg=8 ctermfg=5 cterm=bold
 
 " Pmenu
 highlight PmenuSel ctermfg=11 ctermbg=4
@@ -283,13 +283,13 @@ hi CocNotificationProgress ctermfg=9 ctermbg=7
 hi CocPumVirtualText ctermfg=4 ctermbg=8
 hi CocFloatDividingLine ctermfg=4 ctermbg=8
 hi CocFloating ctermfg=7 ctermbg=8
-hi CocMenuSel ctermfg=11 ctermbg=4
+hi CocMenuSel ctermfg=15 ctermbg=4
 hi CocFloatSum ctermfg=15 ctermbg=3
 hi CocFloatSbar ctermfg=15 ctermbg=6
 
-hi CocErrorSign ctermfg=15 ctermbg=1 
-hi CocWarningSign ctermfg=15 ctermbg=3
-hi CocInfoSign ctermfg=15 ctermbg=6
-hi CocHintSign ctermfg=15 ctermbg=5
+hi CocErrorSign ctermfg=1 ctermbg=8 
+hi CocWarningSign ctermfg=3 ctermbg=8
+hi CocInfoSign ctermfg=6 ctermbg=8
+hi CocHintSign ctermfg=4 ctermbg=8
 
 hi CocInlayHint ctermfg=0 ctermbg=8
