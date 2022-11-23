@@ -281,7 +281,10 @@ hi CocSearch ctermfg=3 ctermbg=8
 hi CocNotificationProgress ctermfg=9 ctermbg=7
 hi CocPumVirtualText ctermfg=4
 hi CocFloatDividingLine ctermfg=4
+hi CocFloating ctermbg=7
 hi CocMenuSel ctermbg=4
+hi CocFloatSum ctermbg=3
+hi CocFloatSbar ctermbg=6
 hi CocErrorSign ctermfg=9
 hi CocWarningSign ctermfg=11
 hi CocInfoSign ctermfg=14
