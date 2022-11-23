@@ -183,9 +183,7 @@ highlight Question     ctermbg=8 ctermfg=5 cterm=bold
 highlight PmenuSel ctermfg=11 ctermbg=4
 highlight Pmenu ctermfg=7 ctermbg=8 cterm=bold
 
-" Columns
-highlight SignColumn ctermbg=14 ctermfg=8  cterm=none
-highlight Conceal ctermbg=7 ctermfg=8  cterm=none
+highlight Conceal ctermbg=8 ctermfg=7 
 
 " Status line
 highlight StatusLine   ctermbg=7 ctermfg=4  cterm=none
@@ -194,6 +192,7 @@ highlight StatusLineNC ctermbg=7 ctermfg=8  cterm=none
 "        *StatusLineNC The status line for the non active window
 highlight LineNr       ctermbg=7 ctermfg=8  cterm=none
 "        *LineNr       Line numbers
+highlight SignColumn ctermbg=7 ctermfg=8  cterm=none
 
 " Diff
 highlight DiffChange   ctermbg=4 ctermfg=15 cterm=none
@@ -204,7 +203,7 @@ highlight DiffDelete   ctermbg=1 ctermfg=15 cterm=none
 " Folding
 highlight Folded       ctermbg=6 ctermfg=15  cterm=none
 highlight FoldedColumn ctermbg=6 ctermfg=15  cterm=none
-highlight FoldColumn ctermbg=14 ctermfg=8  cterm=none
+highlight FoldColumn ctermbg=7 ctermfg=8  cterm=none
 
 " Cursor columns and lines
 highlight CursorColumn ctermbg=8
