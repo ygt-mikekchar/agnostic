@@ -271,7 +271,6 @@ highlight org_timestamp ctermfg=13 cterm=none
 highlight org_timestamp_inactive ctermfg=13 cterm=none
 highlight org_deadline_scheduled ctermfg=9 cterm=none
 
-
 " Coc
 hi CocSelectedText ctermfg=9 ctermbg=7
 hi CocCodeLens ctermfg=14 ctermbg=8
@@ -287,9 +286,14 @@ hi CocMenuSel ctermfg=15 ctermbg=4
 hi CocFloatSum ctermfg=15 ctermbg=3
 hi CocFloatSbar ctermfg=15 ctermbg=6
 
-hi CocErrorSign ctermfg=9 ctermbg=7 
-hi CocWarningSign ctermfg=11 ctermbg=7
-hi CocInfoSign ctermfg=14 ctermbg=7
-hi CocHintSign ctermfg=12 ctermbg=7
+hi CocErrorSign ctermfg=9 ctermbg=8 
+hi CocWarningSign ctermfg=11 ctermbg=8
+hi CocInfoSign ctermfg=14 ctermbg=8
+hi CocHintSign ctermfg=12 ctermbg=8
+
+hi CocErrorFloat ctermfg=9 ctermbg=8 
+hi CocWarnFloat ctermfg=11 ctermbg=8
+hi CocInfoFloat ctermfg=14 ctermbg=8
+hi CocHintFloat ctermfg=12 ctermbg=8
 
 hi CocInlayHint ctermfg=0 ctermbg=8
