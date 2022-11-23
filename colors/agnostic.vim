@@ -292,7 +292,7 @@ hi CocInfoSign ctermfg=14 ctermbg=8
 hi CocHintSign ctermfg=12 ctermbg=8
 
 hi CocErrorFloat ctermfg=9 ctermbg=8 
-hi CocWarnFloat ctermfg=11 ctermbg=8
+hi CocWarningFloat ctermfg=11 ctermbg=8
 hi CocInfoFloat ctermfg=14 ctermbg=8
 hi CocHintFloat ctermfg=12 ctermbg=8
 
