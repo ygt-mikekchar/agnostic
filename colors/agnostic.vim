@@ -279,14 +279,17 @@ hi CocMarkdownLink ctermfg=3 ctermbg=8
 hi CocDisabled ctermfg=7 ctermbg=8
 hi CocSearch ctermfg=3 ctermbg=8
 hi CocNotificationProgress ctermfg=9 ctermbg=7
-hi CocPumVirtualText ctermfg=4
-hi CocFloatDividingLine ctermfg=4
-hi CocFloating ctermbg=7
-hi CocMenuSel ctermbg=4
-hi CocFloatSum ctermbg=3
-hi CocFloatSbar ctermbg=6
-hi CocErrorSign ctermfg=9
-hi CocWarningSign ctermfg=11
-hi CocInfoSign ctermfg=14
-hi CocHintSign ctermfg=13
+
+hi CocPumVirtualText ctermfg=4 ctermbg=8
+hi CocFloatDividingLine ctermfg=4 ctermbg=8
+hi CocFloating ctermfg=7 ctermbg=8
+hi CocMenuSel ctermfg=11 ctermbg=4
+hi CocFloatSum ctermfg=15 ctermbg=3
+hi CocFloatSbar ctermfg=15 ctermbg=6
+
+hi CocErrorSign ctermfg=15 ctermbg=1 
+hi CocWarningSign ctermfg=15 ctermbg=3
+hi CocInfoSign ctermfg=15 ctermbg=6
+hi CocHintSign ctermfg=15 ctermbg=5
+
 hi CocInlayHint ctermfg=0 ctermbg=8
