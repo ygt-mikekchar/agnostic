@@ -301,3 +301,4 @@ hi CocInfoFloat ctermfg=14 ctermbg=8
 hi CocHintFloat ctermfg=12 ctermbg=8
 
 hi CocInlayHint ctermfg=7 ctermbg=8
+hi CocHighlightText ctermfg=15 ctermbg=6
